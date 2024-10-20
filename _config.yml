@@ -1,0 +1,10 @@
+# -- Site Settings --
+title: Tufte For Jekyll
+description: >-
+  Tufte is a simple Jekyll theme, mainly featuring nice typography and background-colors.
+baseurl: "/Tufte-For-Jekyll"
+url: "https://skrillx13.github.io"
+
+# -- Build Configuration --
+plugins:
+  - jekyll-feed

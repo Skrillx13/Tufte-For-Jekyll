@@ -1,0 +1,89 @@
+/* Tufte Stylesheet */
+/* All Tufte elements will go into this stylesheet, while the rest go under styles.css */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "et-book";
+    src: url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("../assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("../assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("../assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("../assets/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book";
+    src: url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("../assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("../assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("../assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("../assets/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Body Styles */
+html {
+    font-size: 15px;
+}
+
+body {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 13%;
+    padding-right: 13%;
+    background-color: #fffff8;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #111
+}
+
+/* Text Styles */
+h1 {
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-weight: 250;
+    font-size: 2rem;
+}
+
+h5 {
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+h6 {
+    font-weight: 150;
+    font-size: 1.3rem;
+}
+
+.numeral {
+    font-family: et-book-roman-old-style;
+}
