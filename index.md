@@ -1,17 +1,8 @@
 ---
 layout: home
+title: Index
 ---
 
 # Tufte For Jekyll
 
-long linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong linelong line
-
-## 2ndary
-
-### 3fnrto
-
-#### 4 no one
-
-##### who even uses size 5
-
-###### 6ndary
+Tufte for Jekyll is a simple Jekyll theme, mainly featuring nice typography and background-colors. It takes inspiration from Tufte CSS, while adding some of its key componenets.yadayay
